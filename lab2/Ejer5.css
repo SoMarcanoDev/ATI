@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: #87ceeb;
+}
+.p1 {
+    font-size: 1.5rem;
+}
+.p2 {
+    font-size: 2.65em;
+}
+.p3 {
+    font-size: 2.65ex;
+}
+.p4 {
+    font-size: 25%;
+}
+.p5 {
+    font-size: 4px;
+}
