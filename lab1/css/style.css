@@ -1,8 +1,8 @@
-a:link {
+#email:link {
     color: orange;
 }
 
-a:visited {
+#email:visited {
     color: red;
 }
 
@@ -102,7 +102,7 @@ input {
 section {
     align-content: center;
 }
-.gallery {
+#gallery {
     width: 890px;
     align-self: center;
     margin: auto;
@@ -110,7 +110,7 @@ section {
     grid-template-columns: repeat(4, 0fr);
     list-style-type: none;
 }
-.gallery li {
+#gallery li {
     height: 200px;
     width: 200px;
     margin: 10px;
@@ -120,7 +120,7 @@ section {
     box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.3);
     transition: 0.3s ease-in-out;
 }
-.gallery li a {
+#gallery li a {
     display: block;
     height: 200px;
     width: 200px;
@@ -128,7 +128,7 @@ section {
     align-content: center;
     text-decoration: none;
 }
-.gallery li img {
+#gallery li img {
     display: block;
     margin: auto;
     height: 70%;
@@ -142,7 +142,7 @@ label {
     font-weight: bold;
 }
 
-.gallery li:hover {
+#gallery li:hover {
     background-color: #99c5dd;
     transform: rotate(5deg) scale(1.05);
 }
