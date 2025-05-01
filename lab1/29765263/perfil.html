@@ -9,7 +9,11 @@
 </head>
 <body>
     <section class="profile">
-        <img id="profileimg" src="29765263.jpg" height = 400>
+        <picture>
+            <source media="(min-width:769px)" srcset="29765263Grande.jpg">
+            <source media="(min-width:320px)" srcset="29765263Pequena.jpg">
+            <img src="29765263Pequena.jpg">
+        </picture>
         <div>
             <h2>Sofía Marcano</h2>
             <p id="description"><i>Soy estudiante de Computación en la Universidad Central de Venezuela (UCV), 
