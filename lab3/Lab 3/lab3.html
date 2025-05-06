@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>	
+<body>
+	<div class="container">
+		<h1>Laboratorio #4: JavaScript y JSON</h1>
+		<p id="demo1">JavaScript permite modificar el contenido de un documento HTML.</p>
+		<button class="btn" type="button" onclick="document.getElementById('demo1').innerHTML = 'Hola JavaScript!'">Aquí</button>
+		<br>
+		<br>
+
+		<p id="demo2">Permíte cambiar el estilo de un documento HTML.</p>
+		<button class="btn" type="button" onclick="myFuncion1()">Aquí</button>
+		<br>
+		<br>
+
+		<p id="demo3"></p>
+		<button class="btn" onclick="getElementById('demo3').innerHTML=Date()">¿Qué hora es?</button>
+		<br>
+		<br>
+
+		<p id="demo4">Permíte también agregar manejadores o handlers a eventos DOM.</p>
+		<button class="btn" id="myBtn">Aquí</button>
+	</div>
+
+	<script>
+		function myFuncion1() {
+			var x = document.getElementById("demo2");
+			x.style.fontSize = "25px";           
+			x.style.color = "violet"; 
+		}
+
+		document.getElementById("myBtn").addEventListener("click", function(){
+			alert("¡Hola Mundo!");
+		});
+	</script>
+</body>
+</html>
