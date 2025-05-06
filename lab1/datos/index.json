@@ -1,7 +1,7 @@
 const perfiles = [
     {
         "ci": "29765263",
-        "imagen": "29765263\/29765263Grande.jpg",
+        "imagen": "29765263\/29765263Pequena.jpg",
         "nombre": "Sofía Marcano"
     },
     {
