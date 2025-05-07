@@ -1,10 +1,6 @@
 const perfil = {	
 	"nombre":"Sofía Marcano",
-	"descripcion":"Soy estudiante de Computación en la Universidad Central de Venezuela (UCV), 
-                actualmente cursando el sexto semestre de la carrera. Además, tengo el privilegio 
-                de desempeñarme como preparadora de la materia Matemáticas Discretas 1. Me apasiona 
-                la programación competitiva, lo que me ha llevado a participar en el superregional 
-                Latinoamericano 2024.",
+	"descripcion":"Soy estudiante de Computación en la Universidad Central de Venezuela (UCV), actualmente cursando el sexto semestre de la carrera. Además, tengo el privilegio de desempeñarme como preparadora de la materia Matemáticas Discretas 1. Me apasiona la programación competitiva, lo que me ha llevado a participar en el superregional Latinoamericano 2024.",
 	"color": "Verde",
 	"libro": ["Maus - Art Spiegelman"],
 	"musica": ["Rock Alternativo", "Breakcore", "Pop rock"],

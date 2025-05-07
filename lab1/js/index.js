@@ -15,7 +15,7 @@ const gallery = document.querySelector('#gallery');
 
 perfiles.forEach(perfil => {
     const galleryItem = document.querySelector('#galleryItem').content.cloneNode(true);
-    galleryItem.querySelector('a').setAttribute('href', `${perfil.ci}/perfil.html`)
+    galleryItem.querySelector('a').setAttribute('href', `perfil.html?ci=${perfil.ci}`)
     galleryItem.querySelector('.galleryimg').setAttribute('src', `${perfil.imagen}`);
     galleryItem.querySelector('label').innerHTML = `${perfil.nombre}`;
     gallery.appendChild(galleryItem);
