@@ -152,6 +152,14 @@ footer {
     background-color: #99afdd;
 }
 
+#no_result {
+    text-align: center;
+    color: #8FB1EA;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
 @media (max-width: 480px) {
     .profile {
         flex-direction: column;
