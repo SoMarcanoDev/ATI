@@ -152,13 +152,21 @@ footer {
     background-color: #99afdd;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+#no_result {
+    text-align: center;
+    color: #8FB1EA;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+@media (max-width: 480px) {
     .profile {
         flex-direction: column;
     }
     .profile picture {
         margin-left: 5px;
-        max-height: 30%;
+        max-height: 40%;
         max-width: 200px;
     }
     .profile img {
@@ -170,6 +178,13 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 825px) {
+    .profile picture {
+        max-height: 40%;
+        min-width: 200px;
+    }
+    .profile img {
+        width: 100%;
+    }
     #gallery {
         width: 90%;
     }
@@ -177,8 +192,7 @@ footer {
 
 @media (min-width: 769px) {
     .profile picture {
-        max-height: 50%;
-        max-width: 425px;
+        width: 45%;
     }
     .profile img {
         width: 100%;
