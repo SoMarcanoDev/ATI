@@ -56,10 +56,10 @@ nav ul {
     justify-content: space-around;
     align-items: stretch;
     margin: 0;
-}
-nav ul li {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li {
     align-content: center;
     margin: 0 5px;
 }
@@ -148,8 +148,7 @@ footer {
 }
 
 #gallery li a:visited {
-    color:white;
-    background-color: #99afdd;
+    color:rgb(44, 102, 190);
 }
 
 #no_result {
