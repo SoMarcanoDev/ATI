@@ -1,8 +1,0 @@
-.contenedor{
-    display:flex; /* Ejercicio 1 */
-    flex-direction:row-reverse; /* Ejercicio 2 */
-    flex-direction:column; /* Ejercicio 3 */
-}
-.elemento{
-    width:25%;
-}
