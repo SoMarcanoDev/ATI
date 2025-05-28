@@ -1,10 +1,11 @@
 window.onload = function () {
-    const params = new URLSearchParams(window.location.search)
+    const params = new URLSearchParams(this.location.search)
     const ci = params.get("ci");
     const language = params.get("lang");
 
     if (!ci) {
-        document.body.innerHTML = "<h1>CI no especificada en la URL.</h1>";
+        document.body.innerHTML = "<h2>Ups, no podemos encontrar datos de perfil.</h2>";
+        console.log("Parametro CI no especificado en la URL:", this.location);
         return;
     }
 
@@ -28,7 +29,7 @@ window.onload = function () {
                                                             <source media="(min-width:320px)" srcset="${ci}\/${perfil.ci}Pequena.jpg"/>
                                                             <img src="${ci}\/${perfil.ci}.jpg"/>`;
             picture.querySelector('img').onerror = function () {
-                console.log("Picture Failed");
+                console.log("Fallo al cargar imagen: ", this);
                 perfiles.forEach(perfil => { 
                     if (perfil.ci == ci) {
                         picture.innerHTML = `<img src="${perfil.imagen}"/>`;
@@ -51,7 +52,8 @@ window.onload = function () {
         };
 
         script.onerror = function () {
-            document.body.innerHTML = `<h2>No se encontró el perfil para la cédula: ${ci}</h2>`;
+            document.body.innerHTML = "<h2>Ups, no podemos encontrar datos de perfil.</h2>";
+            console.log("Directorio o archivo faltante en la ruta:", this.getAttribute('src'));
         };
 
         document.body.appendChild(script);

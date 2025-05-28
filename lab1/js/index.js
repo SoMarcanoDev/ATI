@@ -1,13 +1,13 @@
 window.onload = function () {
-    const language = new URLSearchParams(window.location.search).get("lang");
+    const language = new URLSearchParams(this.location.search).get("lang");
     if (!language) {
-        let url = window.location.href;
+        let url = this.location.href;
         if (url.indexOf('?') > -1){
             url += 'lang=ES'
          } else {
             url += '?lang=ES'
          }
-        window.location.href = url;
+        this.location.href = url;
     }
 
     const configLan = document.createElement('script');
