@@ -103,7 +103,8 @@ section {
     justify-content: center;
     list-style-type: none;
 }
-#gallery li a{
+
+#item {
     height: 200px;
     width: 200px;
     margin: 10px;
@@ -117,12 +118,12 @@ section {
     text-decoration: none;
 }
 
-.galleryimg {
+#galleryimg {
     margin:0 auto;
     height: 70%;
 }
 
-.galleryimg img {
+#galleryimg img {
     height: 100%;
 }
 
@@ -132,7 +133,7 @@ label {
     font-weight: bold;
 }
 
-#gallery li a:hover {
+#item:hover {
     background-color: #99c5dd;
     color:white;
     transform: rotate(5deg) scale(1.05);
@@ -147,7 +148,7 @@ footer {
     align-content: center;
 }
 
-#gallery li a:visited {
+#item:visited {
     color:rgb(44, 102, 190);
 }
 
