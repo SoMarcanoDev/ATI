@@ -46,6 +46,18 @@ html, body {
     height: 100%;
 }
 
+#return {
+    color: orange;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#return:hover {
+    color: red;
+}
+
 header {
     background-color:#8FB1EA;
 }
