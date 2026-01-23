@@ -1,1 +1,2 @@
-This file solves issue #3
+This file will be used to resolve the issues opened via gitHub
+Ahora se pueden ocultar las publicaciones!
